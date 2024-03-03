@@ -9,17 +9,17 @@ public class NewYorkPizzaIngredientFactory
     }
 
     public Sauce createSauce() {
-        return new PlumTomatoSauce();
+        return new MarinaraSauce();
     }
 
     public Cheese createCheese() {
-        return new MozzarellaCheese();
+        return new ReggianoCheese();
     }
 
     public Veggies[] createVeggies() {
-        Veggies veggies[] = { new BlackOlives(),
-                new Spinach(),
-                new Eggplant() };
+        Veggies veggies[] = { new Onion(),
+                new RedPeppers(),
+                new Mushrooms(), new Garlic() };
         return veggies;
     }
 
